@@ -25,7 +25,7 @@ const LinkResult = ({ inputValue }) => {
       fetchData();
     }
   }, [inputValue]);
-
+   
   useEffect(() => {
     const timer = setTimeout(() => {
       setCopied(false);
